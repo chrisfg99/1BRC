@@ -41,7 +41,7 @@ func main(){
 		    if value > maxi {
 			results[field]["max"] = value
 		}
-               	    if value < mini {
+               	    else if value < mini {
                        results[field]["min"] = value
                 }
                     results[field]["mean"] = mean + value
